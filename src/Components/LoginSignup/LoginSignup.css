@@ -1,0 +1,289 @@
+
+
+
+.inputs img{
+    width: 20px; 
+    position: absolute;
+    right: 20px;
+    margin-top: -40px;
+    
+    
+    
+   
+}
+
+.form-box{
+    color: #fff;
+    margin-top: 20px;
+}
+
+.container{
+
+    position: relative;
+    margin-top: 30px;
+    width: 420px;
+    height: 450px;
+    background: #fff;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: height .2s ease;
+    overflow: hidden;
+}
+
+.container.active{
+
+}
+
+
+.form-box1 {
+    position: absolute;
+    translate: 450px;
+    
+    
+   
+    
+}
+
+.form-box1 .inputs{
+    width: 80%;
+    margin-left: 30px;
+}
+/**
+.container .form-box .register{
+    transition: translate .18s ease;
+}
+**/
+.container .form-box .login{
+    transition: translate .18s ease;
+}
+
+.container.active  .login{
+    transition: none;
+    translate: -400px;
+}
+
+.container.active  .register{
+    transition: translate .18s ease;
+    translate: 0;
+
+}
+
+
+
+
+.form-box{
+    width: 100%;
+    padding: 40px;
+
+
+}
+
+.form-box1{
+    background-color: white;
+    margin-top: 25px;
+    border-radius: 10px;
+    transition: height .2s ease;
+}
+
+form h1{
+    font-size: 36px;
+    text-align: center;
+    color: #4c00b4;
+}
+
+.inputs{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;
+}
+
+.inputs input{
+    width: 100%;
+    height: 40px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+     border: 1px solid #3c009d;
+     padding: 20px 45px 20px 20px;
+     font-size: large;
+     margin: 10px;
+    
+     
+}
+
+.underline{
+
+    
+        width: 69px;
+        height: 6px;
+        background: #3c009d;
+        border-radius: 9px;
+        margin-left: 135px;
+        margin-top: 10px;
+    
+    
+}
+
+.underline1{
+
+        width: 99px;
+        height: 6px;
+        background: #3c009d;
+        border-radius: 9px;
+        margin-left: 157px;
+        margin-top: 10px;
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #797979;
+    font-size: 18px;
+    
+
+
+}
+
+.register-link{
+    display: flex;
+    justify-content: space-between;
+    color: #797979;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 30px;
+   
+
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    color:  white;
+    background-color:#4c00b4; ;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer; 
+    font-size: 36px;
+    text-align: center;
+    outline: none;
+    border: none;
+    padding: 25px;
+    margin-top: 5px;
+}
+
+.submit1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    color:  white;
+    background-color:#4c00b4; ;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer; 
+    font-size: 36px;
+    text-align: center;
+    outline: none;
+    border: none;
+    padding: 25px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.form2{
+    color: #3c009d;
+}
+
+.submit:hover{
+
+    background-color: lightslategray;
+    transition-delay: 0.0000ms;
+}
+
+a{
+    text-decoration: none;
+}
+
+.register-link:hover{
+    text-decoration: underline;
+}
+
+.remember-forgot:hover{
+
+text-decoration: underline;
+}
+
+.text{
+    margin-left: 45px;
+    padding-bottom: 20px;
+    
+}
+
+
+
+/**
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+
+
+}
+
+.text{
+    color: #3c009d;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+
+
+.input input{
+    height: 50px;
+    
+    
+    
+
+.forgot-password{
+   
+}
+
+.forgot-password span{
+    color: #4c00b4;
+    cursor: pointer;
+}
+
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+
+
+   **/
